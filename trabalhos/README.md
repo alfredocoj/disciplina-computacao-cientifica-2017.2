@@ -5,7 +5,7 @@ Equipe 2 - Cancelamento de ruído da rede elétrica em sinal de ECG ([link](http
 
 Equipe 3 - .
 
-Equipe 4 - .
+Equipe 4 - ([link](https://github.com/gabriellymoura/codigo-de-barras)).
 
 Equipe 5 - .
 
