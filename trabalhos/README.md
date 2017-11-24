@@ -13,4 +13,4 @@ Equipe 6 - .
 
 Equipe 7 - .
 
-Equipe 8 - .
+Equipe 8 - Separação de canais com filtros.
