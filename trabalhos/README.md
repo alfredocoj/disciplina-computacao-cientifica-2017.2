@@ -5,12 +5,10 @@ Equipe 2 - Cancelamento de ruído da rede elétrica em sinal de ECG ([link](http
 
 Equipe 3 - .
 
-Equipe 4 - .
+Equipe 4 - Decodificacao de codigo de barras ([link](https://github.com/gabriellymoura/codigo-de-barras)).
 
 Equipe 5 - .
 
 Equipe 6 - .
 
-Equipe 7 - .
-
-Equipe 8 - Separação de canais com filtros.
+Equipe 7 - Separação de canais com filtros.
