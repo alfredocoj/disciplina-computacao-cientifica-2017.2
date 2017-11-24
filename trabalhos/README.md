@@ -11,4 +11,4 @@ Equipe 5 - .
 
 Equipe 6 - .
 
-Equipe 7 - Separação de canais com filtros.
+Equipe 7 - Separação de canais com filtros ([link](https://github.com/AndreHSLP/Separacao-de-canal-com-filtros)).
