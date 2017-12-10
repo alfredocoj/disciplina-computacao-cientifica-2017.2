@@ -1,0 +1,41 @@
+im = imread('C:\Users\ygorg\Desktop\Nova pasta\lena.jpg');
+
+I=rgb2gray(im);
+sobel=edge (I, 'sobel');
+roberts=edge (I, 'roberts');
+prewitt=edge(I, 'prewitt');
+log=edge (I, 'log');
+zerocross=edge(I, 'zerocross');
+
+
+
+sobel_v = [-1, -2, -1; 0, 0, 0; 1, 2, 1]
+sobel_h = [-1, 0, 1; -2, 0, 2; -1, 0, 1]
+
+borda_v = conv2(sobel_v,I);
+borda_h = conv2(sobel_h,I);
+borda_v = borda_v(2:end-1,2:end-1);
+borda_h = borda_h(2:end-1,2:end-1);
+
+figure
+
+
+borda = borda_v + borda_h;
+
+figure,
+imshow(uint8(borda_v)); title('Bordas verticais da imagem')
+imshow(uint8(borda_h)); title('Bordas horizontais da imagem')
+imshow(uint8(borda)); title('Bordas da imagem')
+%%
+subplot(3,3,1);imshow(im)
+title ('Imagem original');
+subplot(3,3,2);imshow(sobel)
+title ('Método Sobel');
+subplot(3,3,3);imshow(roberts)
+title ('Método Roberts');
+subplot(3,3,4);imshow(prewitt)
+title ('Método Prewitt');
+subplot(3,3,5);imshow(log)
+title ('Método Log');
+subplot(3,3,6);imshow(zerocross)
+title ('Método Zerocross');
